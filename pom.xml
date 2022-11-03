@@ -9,6 +9,12 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>cloud-common</module>
+        <module>cloud-platform</module>
+        <module>cloud-sever</module>
+    </modules>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
